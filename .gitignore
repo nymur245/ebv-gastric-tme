@@ -1,0 +1,32 @@
+# Downloaded data and caches (large; re-created by the scripts)
+star_counts_cache/
+sc_cache/
+geo_inspect/
+*.h5ad
+*.tar
+*.gz
+
+# Results and figures (re-created by the scripts)
+de_results/
+gsea_results/
+tme_results/
+sc_results/
+tcga_sc_results/
+survival_results/
+macrophage_results/
+Figures/
+tcga_stad_hp_ebv_status.csv
+
+# Manuscript files
+*.docx
+*.pdf
+Submission/
+
+# Python and OS clutter
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db

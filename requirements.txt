@@ -1,0 +1,17 @@
+# Python 3.10 or newer (the analysis was run on Python 3.14 under Windows).
+# Install with:  python -m pip install -r requirements.txt
+requests
+numpy
+pandas
+scipy
+statsmodels
+matplotlib
+seaborn
+pydeseq2
+gseapy
+scanpy
+anndata
+leidenalg
+igraph
+# Pinned: newer harmonypy releases need a compiled dependency that fails to build on Python 3.14.
+harmonypy==0.0.10
